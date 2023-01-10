@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+header, footer{
+    background-color: #1F2937;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    display:flex;
+    justify-content: space-around;
+}
+.header-logo{
+    color:#F9FAF8;
+    font-size: 48px;
+}
+a{
+    text-decoration: none;
+    color:#E5E7EB;
+    font-size: 18px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
