@@ -55,6 +55,7 @@ a{
 .left, .right{
     width: 37%;
     padding-bottom: 50px;
+    height: auto;
 }
 button{
     background-color: #3882F6;
@@ -72,5 +73,25 @@ button:hover{
 img{
     background-color:grey;
     color: #F9FAF8;
+}
+.container3{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    padding: 10% 14% 10% 14%;
+}
+.author{
+    display: flex;
+    justify-content: right;
+    font-weight: bolder;
+}
+footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 20px 0;
 }
 
